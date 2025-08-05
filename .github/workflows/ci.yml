@@ -60,8 +60,8 @@ jobs:
           # 设置提交者（必改）
       - name: Set Git User Config
         run: |
-          GIT_USER_EMAIL="sunlianglang@gmail.com"
-          GIT_USER_NAME="Geekertao"
+          GIT_USER_EMAIL="liwoyuandiane@gmail.com"
+          GIT_USER_NAME="liwoyuandiane"
 
           echo "GIT_USER_EMAIL=$GIT_USER_EMAIL" >> $GITHUB_ENV
           echo "GIT_USER_NAME=$GIT_USER_NAME" >> $GITHUB_ENV
